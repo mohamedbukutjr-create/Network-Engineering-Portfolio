@@ -30,6 +30,7 @@ I am building this portfolio for IT roles in Toronto, Canada, including:
 Network-Engineering-Portfolio/
 ├── foundational-networking/
 │   ├── osi-model-troubleshooting-lab/
+│   ├── layer-1-physical-layer-lab/
 │   └── layer-2-data-link-layer-lab/
 ├── network-security/
 │   └── nac-vlan-access-control-lab/
@@ -45,6 +46,7 @@ Network-Engineering-Portfolio/
 | Lab | Topic | Tools | Skills |
 |---|---|---|---|
 | OSI Model Troubleshooting Lab | Foundational Networking | Cisco Packet Tracer, Windows/Linux commands | OSI troubleshooting, ping, gateway testing |
+| Layer 1 Physical Layer Lab | Foundational Networking | Cisco Packet Tracer, Cisco IOS | Cabling, link lights, interface status, physical troubleshooting |
 | Layer 2 Data Link Layer Lab | Foundational Networking | Cisco Packet Tracer, Cisco IOS | MAC learning, VLANs, access ports, Layer 2 troubleshooting |
 | NAC VLAN Access Control Lab | Network Security | Cisco Packet Tracer, Cisco IOS | VLANs, ACLs, segmentation, NAC concepts |
 
