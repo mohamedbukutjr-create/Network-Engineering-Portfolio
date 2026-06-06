@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420">
+  <defs>
+    <style>
+      .bg{fill:#020617}.grid{stroke:#1e293b;stroke-width:.7}.box{fill:#0f172a;stroke:#38bdf8;stroke-width:3;rx:14}.router{fill:#102a43;stroke:#fbbf24;stroke-width:3;rx:14}.switch{fill:#0b3b36;stroke:#34d399;stroke-width:3;rx:14}.label{fill:#e2e8f0;font-family:Arial,Helvetica,sans-serif;font-size:22px;font-weight:700}.small{fill:#cbd5e1;font-family:Arial,Helvetica,sans-serif;font-size:15px}.ip{fill:#93c5fd;font-family:Arial,Helvetica,sans-serif;font-size:14px}.link{stroke:#94a3b8;stroke-width:5;stroke-linecap:round}.title{fill:#fff;font-family:Arial,Helvetica,sans-serif;font-size:30px;font-weight:800}.subtitle{fill:#cbd5e1;font-family:Arial,Helvetica,sans-serif;font-size:16px}.tag{fill:#172554;stroke:#60a5fa;stroke-width:1.5;rx:8}.tagtext{fill:#bfdbfe;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:700}
+    </style>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" class="grid"/></pattern>
+  </defs>
+  <rect class="bg" width="1100" height="420"/><rect width="1100" height="420" fill="url(#grid)" opacity="0.75"/>
+  <text x="550" y="42" text-anchor="middle" class="title">OSI Model Troubleshooting Lab</text>
+  <text x="550" y="68" text-anchor="middle" class="subtitle">PC1 → SW1 → R1 → SW2 → PC2 | Layer-by-layer connectivity testing</text>
+  <line x1="180" y1="210" x2="330" y2="210" class="link"/><line x1="450" y1="210" x2="580" y2="210" class="link"/><line x1="700" y1="210" x2="830" y2="210" class="link"/><line x1="950" y1="210" x2="1020" y2="210" class="link"/>
+  <rect x="60" y="155" width="140" height="110" class="box"/><text x="130" y="198" text-anchor="middle" class="label">PC1</text><text x="130" y="225" text-anchor="middle" class="ip">192.168.10.10</text><text x="130" y="246" text-anchor="middle" class="small">GW 192.168.10.1</text>
+  <rect x="310" y="155" width="160" height="110" class="switch"/><text x="390" y="198" text-anchor="middle" class="label">SW1</text><text x="390" y="225" text-anchor="middle" class="small">Access Switch</text><text x="390" y="246" text-anchor="middle" class="ip">Layer 2</text>
+  <rect x="560" y="140" width="160" height="140" class="router"/><text x="640" y="190" text-anchor="middle" class="label">R1</text><text x="640" y="218" text-anchor="middle" class="ip">G0/0: 192.168.10.1</text><text x="640" y="240" text-anchor="middle" class="ip">G0/1: 192.168.20.1</text><text x="640" y="262" text-anchor="middle" class="small">Layer 3 Routing</text>
+  <rect x="810" y="155" width="160" height="110" class="switch"/><text x="890" y="198" text-anchor="middle" class="label">SW2</text><text x="890" y="225" text-anchor="middle" class="small">Access Switch</text><text x="890" y="246" text-anchor="middle" class="ip">Layer 2</text>
+  <rect x="995" y="155" width="90" height="110" class="box"/><text x="1040" y="198" text-anchor="middle" class="label">PC2</text><text x="1040" y="225" text-anchor="middle" class="ip">192.168.20.10</text><text x="1040" y="246" text-anchor="middle" class="small">GW .20.1</text>
+  <rect x="115" y="315" width="870" height="54" class="tag"/><text x="550" y="348" text-anchor="middle" class="tagtext">Troubleshooting flow: Layer 1 cable/link → Layer 2 switch/VLAN → Layer 3 IP/gateway/routing → Layer 7 DNS/application</text>
+</svg>
