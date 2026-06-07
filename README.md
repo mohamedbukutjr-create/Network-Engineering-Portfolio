@@ -32,7 +32,7 @@ Network-Engineering-Portfolio/
 │   ├── osi-model-troubleshooting-lab/
 │   ├── layer-1-physical-layer-lab/
 │   ├── layer-2-data-link-layer-lab/
-│   └── packet-tracer-layer3-routing-expanded/
+│   └── layer-3-Network-layer-lab/
 ├── network-security/
 │   └── nac-vlan-access-control-lab/
 ├── switching-routing/
