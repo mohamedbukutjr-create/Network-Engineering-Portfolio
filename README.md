@@ -32,7 +32,8 @@ Network-Engineering-Portfolio/
 │   ├── osi-model-troubleshooting-lab/
 │   ├── layer-1-physical-layer-lab/
 │   ├── layer-2-data-link-layer-lab/
-│   └── layer-3-Network-layer-lab/
+│   ├── layer-3-Network-layer-lab/
+│   └── layer-4-transport-layer-lab/
 ├── network-security/
 │   └── nac-vlan-access-control-lab/
 ├── switching-routing/
@@ -50,6 +51,7 @@ Network-Engineering-Portfolio/
 | Layer 1 Physical Layer Lab | Foundational Networking | Cisco Packet Tracer, Cisco IOS | Cabling, link lights, interface status, physical troubleshooting |
 | Layer 2 Data Link Layer Lab | Foundational Networking | Cisco Packet Tracer, Cisco IOS | MAC learning, VLANs, access ports, Layer 2 troubleshooting |
 | Packet Tracer Layer 3 Routing Expanded Lab | Foundational Networking | Cisco Packet Tracer, Cisco IOS | IPv4 addressing, default gateways, static routes, return-route troubleshooting |
+| Layer 4 Transport Layer Lab | Foundational Networking | Linux/macOS terminal, netstat, ss, nc, tcpdump, nmap | TCP vs UDP, ports, three-way handshake, port connectivity troubleshooting |
 | NAC VLAN Access Control Lab | Network Security | Cisco Packet Tracer, Cisco IOS | VLANs, ACLs, segmentation, NAC concepts |
 
 ## How to Read Each Lab
